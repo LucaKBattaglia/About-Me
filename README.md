@@ -1,3 +1,7 @@
+> https://github.com/LucaKBattaglia/About-Me/blob/main/Resume.jpeg
+
+
+
 
 # Gian-Luca Battaglia
 
