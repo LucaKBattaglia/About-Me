@@ -1,8 +1,3 @@
-> https://github.com/LucaKBattaglia/About-Me/blob/main/Resume.jpeg
-
-
-
-
 # Gian-Luca Battaglia
 
 Glenhaven, NSW 2156 | 0426 020 567 | luca.luka02@gmail.com | [LinkedIn](https://www.linkedin.com/in/gian-luca-battaglia/) | [GitHub](https://github.com/LucaKBattaglia)
