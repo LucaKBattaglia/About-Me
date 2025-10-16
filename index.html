@@ -1,39 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gian-Luca Battaglia | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
     <style>
-        html, body, h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif;}
+        /* --- GLOBAL THEME --- */
+        html, body, h1, h2, h3, h4, h5, h6 { font-family: "Roboto", sans-serif; }
         body {
-            background-color: #0b0c10;
-            color: #c5c6c7;
+            background-color: #1e1e2e;
+            color: #e6e6e6;
+            margin: 0;
         }
         .w3-card, .w3-white {
-            background-color: #1f2833 !important;
-            color: #c5c6c7;
-            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            background-color: #252531 !important;
+            color: #e6e6e6 !important;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(0,0,0,0.4);
         }
-        .w3-text-blue { color: #66fcf1 !important; }
-        .w3-blue { background-color: #45a29e !important; }
-        .w3-light-grey { background-color: #3d3f44 !important; }
-        footer { background-color: #1f2833 !important; }
-        a { color: #66fcf1; text-decoration: none; }
-        a:hover { color: #45a29e; }
-        .fab, .fa { color: #66fcf1; }
-        .fab:hover, .fa:hover { color: #45a29e; }
+        .w3-text-accent { color: #00bfa5 !important; }
+        .accent-bg { background-color: #00bfa5 !important; }
+        .w3-light-grey { background-color: #2c2c3a !important; }
+        footer { background-color: #252531 !important; color: #a9a9a9; }
+        a { color: #00bfa5; text-decoration: none; }
+        a:hover { color: #1de9b6; }
+        .fa, .fab { color: #00bfa5; }
+        .fa:hover, .fab:hover { color: #1de9b6; }
         .skill-label {
             display: flex;
             justify-content: space-between;
             font-size: 0.8em;
-            color: #9aa0a6;
+            color: #9ca3af;
             margin-bottom: 4px;
+        }
+        .section-title {
+            background: linear-gradient(90deg, #00bfa5, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        img {
+            border-bottom: 3px solid #00bfa5;
         }
     </style>
 </head>
@@ -44,7 +55,7 @@
 
             <!-- LEFT COLUMN -->
             <div class="w3-third">
-                <div class="w3-card w3-white w3-text-grey w3-card-4">
+                <div class="w3-card w3-white w3-text-grey">
                     <div class="w3-display-container">
                         <img src="https://avatars.githubusercontent.com/u/168210064?v=4" style="width:100%" alt="Avatar">
                         <div class="w3-display-bottom w3-container w3-text-white w3-center">
@@ -59,39 +70,41 @@
                     </div>
 
                     <div class="w3-container">
-                        <p><i class="fa fa-home fa-fw w3-margin-right w3-text-blue"></i> Glenhaven, NSW 2156</p>
-                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-text-blue"></i> 0426 020 567</p>
-                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-text-blue"></i> luca.kbattaglia@gmail.com</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-text-accent"></i> Glenhaven, NSW 2156</p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-text-accent"></i> 0426 020 567</p>
+                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-text-accent"></i> luca.kbattaglia@gmail.com</p>
                         <hr>
 
-                        <p class="w3-large"><b><i class="fa fa-code fa-fw w3-margin-right w3-text-blue"></i>Technical Skills</b></p>
-
-                        <!-- Skill Scale Labels -->
+                        <p class="w3-large section-title"><b><i class="fa fa-code fa-fw w3-margin-right w3-text-accent"></i>Technical Skills</b></p>
                         <div class="skill-label"><span>Beginner</span><span>Intermediate</span><span>Proficient</span><span>Expert</span></div>
 
                         <p>C# (4 years)</p>
                         <div class="w3-light-grey w3-round-xlarge">
-                            <div class="w3-container w3-blue w3-round-xlarge" style="width:95%">Expert</div>
+                            <div class="w3-container accent-bg w3-round-xlarge" style="width:95%">Expert</div>
                         </div>
+
                         <p>Java (3 years)</p>
                         <div class="w3-light-grey w3-round-xlarge">
-                            <div class="w3-container w3-blue w3-round-xlarge" style="width:85%">Proficient</div>
+                            <div class="w3-container accent-bg w3-round-xlarge" style="width:85%">Proficient</div>
                         </div>
+
                         <p>C++ (2+ years)</p>
                         <div class="w3-light-grey w3-round-xlarge">
-                            <div class="w3-container w3-blue w3-round-xlarge" style="width:75%">Intermediate</div>
+                            <div class="w3-container accent-bg w3-round-xlarge" style="width:75%">Intermediate</div>
                         </div>
+
                         <p>JavaScript / HTML / CSS (2 years)</p>
                         <div class="w3-light-grey w3-round-xlarge">
-                            <div class="w3-container w3-blue w3-round-xlarge" style="width:70%">Intermediate</div>
+                            <div class="w3-container accent-bg w3-round-xlarge" style="width:70%">Intermediate</div>
                         </div>
+
                         <p>Unity / Unreal Engine</p>
                         <div class="w3-light-grey w3-round-xlarge">
-                            <div class="w3-container w3-blue w3-round-xlarge" style="width:90%">Proficient</div>
+                            <div class="w3-container accent-bg w3-round-xlarge" style="width:90%">Proficient</div>
                         </div>
                         <br>
 
-                        <p class="w3-large"><b><i class="fa fa-users fa-fw w3-margin-right w3-text-blue"></i>Soft Skills</b></p>
+                        <p class="w3-large section-title"><b><i class="fa fa-users fa-fw w3-margin-right w3-text-accent"></i>Soft Skills</b></p>
                         <p>Leadership / Creativity / Adaptability / Teamwork / Problem-Solving</p>
                         <br>
                     </div>
@@ -103,55 +116,55 @@
 
                 <!-- EXPERIENCE -->
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
-                    <h2 class="w3-text-blue w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Experience</h2>
+                    <h2 class="section-title w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Experience</h2>
 
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Game/Software Developer Intern / Liminal VR</b></h5>
-                        <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2025 – Jul 2025</h6>
-                        <p>Developed an interactive VR experience using Liminal VR’s SDK, integrating physiological design principles. Implemented responsive NPC drone AI using Unity and C#. Worked within Agile/Scrum methodology, providing weekly progress reports and performing QA testing for performance optimization.</p>
+                        <h6 class="w3-text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2025 – Jul 2025</h6>
+                        <p>Developed an interactive VR experience using Liminal VR’s SDK with physiological principles. Implemented responsive NPC drone AI using Unity and C#. Operated in Agile/Scrum workflow and performed QA testing to maintain performance standards.</p>
                         <hr>
                     </div>
 
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Customer Service Assistant / Woolworths Group</b></h5>
-                        <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2022 – Present</h6>
-                        <p>Delivered excellent customer service and managed multiple departments including bakery and checkout. Recognized for professionalism and reliability in high-pressure environments.</p>
+                        <h6 class="w3-text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2022 – Present</h6>
+                        <p>Delivered high-quality customer service and managed diverse store operations. Recognized for teamwork, adaptability, and reliability in a fast-paced retail environment.</p>
                         <hr>
                     </div>
                 </div>
 
                 <!-- PROJECTS -->
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
-                    <h2 class="w3-text-blue w3-padding-16"><i class="fa fa-gamepad fa-fw w3-margin-right w3-xxlarge"></i>Projects</h2>
+                    <h2 class="section-title w3-padding-16"><i class="fa fa-gamepad fa-fw w3-margin-right w3-xxlarge"></i>Projects</h2>
 
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>PacGen – 3D Procedurally Generated Maze Game</b></h5>
-                        <p>Designed and developed a 3D maze game inspired by Pac-Man, featuring procedural generation and AI-driven enemy navigation using Unity NavMesh and C#. Optimized performance for cross-platform compatibility.</p>
+                        <p>Created a 3D maze game inspired by Pac-Man, featuring procedural generation and Unity NavMesh AI. Engineered C# scripts for dynamic gameplay and optimized performance for low-end devices.</p>
                         <p><a href="https://github.com/LucaKBattaglia/PacGen" target="_blank"><i class="fab fa-github"></i> View on GitHub</a></p>
                         <hr>
                     </div>
 
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Swing City – 3D Parkour Platformer</b></h5>
-                        <p>Led development of advanced parkour mechanics (wall-running, swinging, sliding) with physics-based gameplay in Unity. Designed visually engaging levels that balanced speed and control.</p>
+                        <p>Led the design and development of a 3D parkour platformer with physics-based movement systems such as wall-running and swinging. Applied modular level design for dynamic gameplay.</p>
                         <p><a href="https://github.com/LucaKBattaglia/COMP3151" target="_blank"><i class="fab fa-github"></i> View on GitHub</a></p>
                     </div>
                 </div>
 
                 <!-- EDUCATION -->
                 <div class="w3-container w3-card w3-white">
-                    <h2 class="w3-text-blue w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge"></i>Education</h2>
+                    <h2 class="section-title w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge"></i>Education</h2>
 
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Bachelor of Game Design and Development</b></h5>
-                        <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Expected 2025</h6>
+                        <h6 class="w3-text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Expected 2025</h6>
                         <p>Macquarie University, Sydney NSW</p>
                         <hr>
                     </div>
 
                     <div class="w3-container">
                         <h5 class="w3-opacity"><b>Certificate of Game Design and Development</b></h5>
-                        <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Completed May 2022</h6>
+                        <h6 class="w3-text-accent"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Completed May 2022</h6>
                         <p>Macquarie University College, NSW</p>
                         <br>
                     </div>
