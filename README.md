@@ -1,6 +1,6 @@
 # Gian-Luca Battaglia
 
-Glenhaven, NSW 2156 | 0426 020 567 | luca.luka02@gmail.com | [LinkedIn](https://www.linkedin.com/in/gian-luca-battaglia/) | [GitHub](https://github.com/LucaKBattaglia)
+Glenhaven, NSW 2156 | 0426 020 567 | luca.kbattaglia@gmail.com | [LinkedIn](https://www.linkedin.com/in/gianluca-battaglia/) | [GitHub](https://github.com/LucaKBattaglia)
 
 ---
 
@@ -14,7 +14,7 @@ Dedicated university student with a passion for game design and software develop
 
 **Bachelor of Game Design and Development**  
 Macquarie University, Sydney, NSW  
-Expected Completion: 2025  
+Completed: October 2025
 
 **Certificate of Game Design and Development**  
 Macquarie University, Sydney, NSW  
